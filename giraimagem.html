@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rotacionar imagem com um clique</title>
+</head>
+
+<body>
+
+    <!-- CSS -->
+    <style>
+        .rotated-image {
+            -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+        }
+    </style>
+
+    <!-- JS -->
+    <script>
+        function myFunction() {
+            var img = document.getElementById("image");
+            img.setAttribute("class", "rotated-image");
+        }
+    </script>
+
+    <!-- HTML -->
+    <section id="middle">
+        <img id="image" src="praia.jpg">
+        <button onclick="myFunction()">Girar 90°</button>
+        <button onclick="myFunction()">Girar 180°</button>
+        <button onclick="myFunction()">Girar 270°</button>
+    </section>
+
+    <img id="image" src="praia.jpg">
+
+
+
+
+</body>
+
+</html>

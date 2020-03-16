@@ -1,3 +1,3 @@
-# rotacionarimagem
+# Rotacionar imagem
 Rotacionar imagem ao clicar num botão.
-Girar uma imagem quando clicar.
+Gira 90 graus à direita ou à esquerda.
